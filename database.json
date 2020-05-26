@@ -1,0 +1,707 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "userName": "Audrey",
+      "password": "123",
+      "parentId": 0
+    },
+    {
+      "id": 2,
+      "userName": "Julie",
+      "password": "123",
+      "parentId": 0
+    },
+    {
+      "id": 3,
+      "userName": "Kaelyn",
+      "password": "123",
+      "parentId": 1
+    },
+    {
+      "id": 4,
+      "userName": "Pierce",
+      "password": "123",
+      "parentId": 1
+    },
+    {
+      "id": 5,
+      "userName": "Alex",
+      "password": "123",
+      "parentId": 2
+    }
+  ],
+  "pets": [
+    {
+      "id": 1,
+      "name": "Bash",
+      "type": "2",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "name": "Brown Pig",
+      "type": "3",
+      "userId": 1
+    },
+    {
+      "id": 3,
+      "name": "Puma",
+      "type": "1",
+      "userId": 1
+    },
+    {
+      "id": 5,
+      "name": "Piper",
+      "type": "2",
+      "userId": 2
+    },
+    {
+      "id": 6,
+      "name": "Gus",
+      "type": "1",
+      "userId": 2
+    }
+  ],
+  "chores": [
+    {
+      "id": 1,
+      "name": "Take pet for walk"
+    },
+    {
+      "id": 2,
+      "name": "Feed pet"
+    },
+    {
+      "id": 3,
+      "name": "Clean cage"
+    },
+    {
+      "id": 4,
+      "name": "Brush pet"
+    },
+    {
+      "id": 5,
+      "name": "Clean tank"
+    },
+    {
+      "id": 6,
+      "name": "Play with pet"
+    },
+    {
+      "id": 7,
+      "name": "Clean box"
+    },
+    {
+      "name": "Give treat",
+      "id": 12
+    },
+    {
+      "name": "Flush fish",
+      "id": 13
+    }
+  ],
+  "kidPetChores": [
+    {
+      "id": 1,
+      "petId": 1,
+      "userId": 3,
+      "choreId": 3,
+      "day": 0,
+      "recurrance": "daily",
+      "isCompleted": true,
+      "dateCompleted": "2/9/2020"
+    },
+    {
+      "id": 3,
+      "petId": 1,
+      "userId": 3,
+      "choreId": 2,
+      "day": 0,
+      "recurrance": "daily",
+      "isCompleted": true,
+      "dateCompleted": "2/9/2020"
+    },
+    {
+      "id": 4,
+      "petId": 2,
+      "userId": 3,
+      "choreId": 2,
+      "day": 0,
+      "recurrance": "daily",
+      "isCompleted": true,
+      "dateCompleted": "2/9/2020"
+    },
+    {
+      "petId": 3,
+      "userId": 4,
+      "choreId": 2,
+      "day": 0,
+      "recurrance": "daily",
+      "isCompleted": true,
+      "id": 13,
+      "dateCompleted": "2/9/2020"
+    },
+    {
+      "petId": 1,
+      "userId": 3,
+      "choreId": 6,
+      "day": 1,
+      "schedDate": "2/13/2020",
+      "recurrance": "daily",
+      "isCompleted": true,
+      "id": 26,
+      "dateCompleted": "2/13/2020"
+    },
+    {
+      "id": 30,
+      "petId": 1,
+      "userId": 3,
+      "choreId": 2,
+      "schedDate": "2/20/2020",
+      "recurrance": "daily",
+      "isCompleted": true,
+      "dateCompleted": "2/20/2020"
+    },
+    {
+      "petId": 1,
+      "userId": 3,
+      "choreId": 1,
+      "schedDate": "2/12/2020",
+      "recurrance": "daily",
+      "isCompleted": true,
+      "id": 34,
+      "dateCompleted": "2/12/2020"
+    },
+    {
+      "petId": 1,
+      "userId": 3,
+      "choreId": 1,
+      "schedDate": "2/13/2020",
+      "recurrance": "daily",
+      "isCompleted": true,
+      "id": 35,
+      "dateCompleted": "2/13/2020"
+    },
+    {
+      "petId": 1,
+      "userId": 3,
+      "choreId": 6,
+      "schedDate": "2/12/2020",
+      "recurrance": "weekly",
+      "isCompleted": true,
+      "id": 36,
+      "dateCompleted": "2/12/2020"
+    },
+    {
+      "id": 37,
+      "petId": 2,
+      "userId": 3,
+      "choreId": 2,
+      "schedDate": "2/12/2020",
+      "recurrance": "daily",
+      "isCompleted": true,
+      "dateCompleted": "2/12/2020"
+    },
+    {
+      "petId": 2,
+      "userId": 3,
+      "choreId": 2,
+      "schedDate": "2/13/2020",
+      "recurrance": "daily",
+      "isCompleted": true,
+      "id": 38,
+      "dateCompleted": "2/13/2020"
+    },
+    {
+      "petId": 1,
+      "userId": 3,
+      "choreId": 6,
+      "schedDate": "2/19/2020",
+      "recurrance": "weekly",
+      "isCompleted": true,
+      "id": 39,
+      "dateCompleted": "2/19/2020"
+    },
+    {
+      "petId": 1,
+      "userId": 3,
+      "choreId": 6,
+      "schedDate": "2/13/2020",
+      "recurrance": "daily",
+      "isCompleted": true,
+      "id": 41,
+      "dateCompleted": "2/13/2020"
+    },
+    {
+      "petId": 1,
+      "userId": 3,
+      "choreId": 1,
+      "schedDate": "2/14/2020",
+      "recurrance": "daily",
+      "isCompleted": true,
+      "id": 43,
+      "dateCompleted": "2/14/2020"
+    },
+    {
+      "petId": 2,
+      "userId": 3,
+      "choreId": 2,
+      "schedDate": "2/17/2020",
+      "recurrance": "daily",
+      "isCompleted": true,
+      "id": 44,
+      "dateCompleted": "2/17/2020"
+    },
+    {
+      "petId": 1,
+      "userId": 3,
+      "choreId": 4,
+      "schedDate": "2/13/2020",
+      "isCompleted": true,
+      "id": 45,
+      "dateCompleted": "2/13/2020"
+    },
+    {
+      "petId": 1,
+      "userId": 3,
+      "choreId": 6,
+      "schedDate": "2/17/2020",
+      "recurrance": "daily",
+      "isCompleted": true,
+      "id": 46,
+      "dateCompleted": "2/17/2020"
+    },
+    {
+      "petId": 1,
+      "userId": 3,
+      "choreId": 3,
+      "schedDate": "2/13/2020",
+      "isCompleted": true,
+      "id": 47,
+      "dateCompleted": "2/13/2020"
+    },
+    {
+      "petId": 1,
+      "userId": 3,
+      "choreId": 1,
+      "schedDate": "2/17/2020",
+      "recurrance": "daily",
+      "isCompleted": true,
+      "id": 50,
+      "dateCompleted": "2/17/2020"
+    },
+    {
+      "petId": 1,
+      "userId": 3,
+      "choreId": 1,
+      "schedDate": "2/20/2020",
+      "recurrance": "daily",
+      "isCompleted": true,
+      "id": 52,
+      "dateCompleted": "2/20/2020"
+    },
+    {
+      "petId": 1,
+      "userId": 3,
+      "choreId": 6,
+      "schedDate": "2/20/2020",
+      "recurrance": "daily",
+      "isCompleted": true,
+      "id": 53,
+      "dateCompleted": "2/20/2020"
+    },
+    {
+      "petId": 2,
+      "userId": 3,
+      "choreId": 2,
+      "schedDate": "2/20/2020",
+      "recurrance": "daily",
+      "isCompleted": true,
+      "id": 54,
+      "dateCompleted": "2/20/2020"
+    },
+    {
+      "petId": 1,
+      "userId": 3,
+      "choreId": 6,
+      "schedDate": "5/20/2020",
+      "recurrance": "weekly",
+      "isCompleted": true,
+      "id": 55,
+      "dateCompleted": "5/20/2020"
+    },
+    {
+      "petId": 3,
+      "userId": 4,
+      "choreId": 7,
+      "schedDate": "6/1/2020",
+      "recurrance": "weekly",
+      "isCompleted": false,
+      "id": 56,
+      "dateCompleted": ""
+    },
+    {
+      "petId": 1,
+      "userId": 3,
+      "choreId": 2,
+      "schedDate": "2/23/2020",
+      "recurrance": "daily",
+      "isCompleted": true,
+      "id": 57,
+      "dateCompleted": "2/23/2020"
+    },
+    {
+      "petId": 1,
+      "userId": 3,
+      "choreId": 1,
+      "schedDate": "2/23/2020",
+      "recurrance": "daily",
+      "isCompleted": true,
+      "id": 58,
+      "dateCompleted": "2/23/2020"
+    },
+    {
+      "petId": 1,
+      "userId": 3,
+      "choreId": 6,
+      "schedDate": "2/23/2020",
+      "recurrance": "daily",
+      "isCompleted": true,
+      "id": 59,
+      "dateCompleted": "2/23/2020"
+    },
+    {
+      "petId": 2,
+      "userId": 3,
+      "choreId": 2,
+      "schedDate": "2/23/2020",
+      "recurrance": "daily",
+      "isCompleted": true,
+      "id": 60,
+      "dateCompleted": "2/23/2020"
+    },
+    {
+      "petId": 5,
+      "userId": 5,
+      "choreId": 2,
+      "schedDate": "2/24/2020",
+      "recurrance": "daily",
+      "isCompleted": false,
+      "id": 61
+    },
+    {
+      "petId": 6,
+      "userId": 5,
+      "choreId": 4,
+      "schedDate": "2/23/2020",
+      "recurrance": "daily",
+      "isCompleted": false,
+      "id": 62
+    },
+    {
+      "petId": 6,
+      "userId": 5,
+      "choreId": 7,
+      "schedDate": "2/23/2020",
+      "recurrance": "weekly",
+      "isCompleted": false,
+      "id": 63
+    },
+    {
+      "petId": 3,
+      "userId": 4,
+      "choreId": 7,
+      "schedDate": "5/30/2020",
+      "recurrance": "weekly",
+      "isCompleted": false,
+      "id": 67,
+      "dateCompleted": ""
+    },
+    {
+      "petId": 1,
+      "userId": 3,
+      "choreId": 2,
+      "schedDate": "2/24/2020",
+      "recurrance": "daily",
+      "isCompleted": true,
+      "id": 69,
+      "dateCompleted": "2/24/2020"
+    },
+    {
+      "petId": 1,
+      "userId": 3,
+      "choreId": 1,
+      "schedDate": "2/24/2020",
+      "recurrance": "daily",
+      "isCompleted": true,
+      "id": 70,
+      "dateCompleted": "2/24/2020"
+    },
+    {
+      "petId": 2,
+      "userId": 3,
+      "choreId": 2,
+      "schedDate": "2/24/2020",
+      "recurrance": "daily",
+      "isCompleted": true,
+      "id": 71,
+      "dateCompleted": "2/24/2020"
+    },
+    {
+      "petId": 1,
+      "userId": 3,
+      "choreId": 6,
+      "schedDate": "2/24/2020",
+      "recurrance": "daily",
+      "isCompleted": true,
+      "id": 72,
+      "dateCompleted": "2/24/2020"
+    },
+    {
+      "petId": 1,
+      "userId": 3,
+      "choreId": 2,
+      "schedDate": "2/25/2020",
+      "recurrance": "daily",
+      "isCompleted": true,
+      "id": 73,
+      "dateCompleted": "2/25/2020"
+    },
+    {
+      "petId": 1,
+      "userId": 3,
+      "choreId": 1,
+      "schedDate": "2/25/2020",
+      "recurrance": "daily",
+      "isCompleted": true,
+      "id": 74,
+      "dateCompleted": "2/25/2020"
+    },
+    {
+      "petId": 2,
+      "userId": 3,
+      "choreId": 2,
+      "schedDate": "2/25/2020",
+      "recurrance": "daily",
+      "isCompleted": true,
+      "id": 75,
+      "dateCompleted": "2/25/2020"
+    },
+    {
+      "petId": 1,
+      "userId": 4,
+      "choreId": 3,
+      "schedDate": "2/13/2020",
+      "isCompleted": true,
+      "id": 76,
+      "dateCompleted": "2/13/2020"
+    },
+    {
+      "petId": 1,
+      "userId": 4,
+      "choreId": 3,
+      "schedDate": "2/19/2020",
+      "isCompleted": true,
+      "id": 77,
+      "dateCompleted": "2/19/2020"
+    },
+    {
+      "petId": 1,
+      "userId": 4,
+      "choreId": 3,
+      "schedDate": "2/22/2020",
+      "isCompleted": true,
+      "id": 78,
+      "dateCompleted": "2/22/2020"
+    },
+    {
+      "petId": 3,
+      "userId": 4,
+      "choreId": 2,
+      "schedDate": "2/24/2020",
+      "recurrance": "daily",
+      "isCompleted": true,
+      "id": 79,
+      "dateCompleted": "2/24/2020"
+    },
+    {
+      "petId": 2,
+      "userId": 4,
+      "choreId": 3,
+      "schedDate": "2/24/2020",
+      "recurrance": "daily",
+      "isCompleted": true,
+      "id": 80,
+      "dateCompleted": "2/24/2020"
+    },
+    {
+      "id": 81,
+      "petId": 2,
+      "userId": 4,
+      "choreId": 3,
+      "schedDate": "4/7/2020",
+      "recurrance": "daily",
+      "isCompleted": true,
+      "dateCompleted": "4/7/2020"
+    },
+    {
+      "petId": 1,
+      "userId": 3,
+      "choreId": 6,
+      "schedDate": "2/25/2020",
+      "recurrance": "daily",
+      "isCompleted": true,
+      "id": 84,
+      "dateCompleted": "2/25/2020"
+    },
+    {
+      "petId": 1,
+      "userId": 3,
+      "choreId": 2,
+      "schedDate": "4/7/2020",
+      "recurrance": "daily",
+      "isCompleted": true,
+      "id": 85,
+      "dateCompleted": "4/7/2020"
+    },
+    {
+      "petId": 1,
+      "userId": 3,
+      "choreId": 2,
+      "schedDate": "5/20/2020",
+      "recurrance": "daily",
+      "isCompleted": true,
+      "id": 86,
+      "dateCompleted": "5/20/2020"
+    },
+    {
+      "id": 87,
+      "petId": 1,
+      "userId": 3,
+      "choreId": 1,
+      "schedDate": "5/21/2020",
+      "recurrance": "daily",
+      "isCompleted": true,
+      "dateCompleted": "5/21/2020"
+    },
+    {
+      "petId": 2,
+      "userId": 4,
+      "choreId": 3,
+      "schedDate": "5/26/2020",
+      "recurrance": "daily",
+      "isCompleted": false,
+      "id": 88,
+      "dateCompleted": ""
+    },
+    {
+      "petId": 1,
+      "userId": 3,
+      "choreId": 6,
+      "schedDate": "5/27/2020",
+      "recurrance": "weekly",
+      "isCompleted": false,
+      "id": 89
+    },
+    {
+      "petId": 1,
+      "userId": 3,
+      "choreId": 2,
+      "schedDate": "5/21/2020",
+      "recurrance": "daily",
+      "isCompleted": true,
+      "id": 90,
+      "dateCompleted": "5/21/2020"
+    },
+    {
+      "petId": 2,
+      "userId": 3,
+      "choreId": 6,
+      "schedDate": "5/21/2020",
+      "recurrance": "daily",
+      "isCompleted": true,
+      "id": 91,
+      "dateCompleted": "5/21/2020"
+    },
+    {
+      "petId": 1,
+      "userId": 3,
+      "choreId": 1,
+      "schedDate": "5/26/2020",
+      "recurrance": "daily",
+      "isCompleted": false,
+      "id": 92,
+      "dateCompleted": ""
+    },
+    {
+      "petId": 1,
+      "userId": 3,
+      "choreId": 2,
+      "schedDate": "5/26/2020",
+      "recurrance": "daily",
+      "isCompleted": false,
+      "id": 93,
+      "dateCompleted": ""
+    },
+    {
+      "petId": 2,
+      "userId": 3,
+      "choreId": 6,
+      "schedDate": "5/26/2020",
+      "recurrance": "daily",
+      "isCompleted": false,
+      "id": 94,
+      "dateCompleted": ""
+    },
+    {
+      "petId": 1,
+      "userId": 3,
+      "choreId": 12,
+      "schedDate": "5/21/2020",
+      "recurrance": "daily",
+      "isCompleted": true,
+      "id": 95,
+      "dateCompleted": "5/21/2020"
+    },
+    {
+      "petId": 2,
+      "userId": 3,
+      "choreId": 2,
+      "schedDate": "5/21/2020",
+      "isCompleted": true,
+      "id": 96,
+      "dateCompleted": "5/21/2020"
+    },
+    {
+      "petId": 1,
+      "userId": 3,
+      "choreId": 12,
+      "schedDate": "5/26/2020",
+      "recurrance": "daily",
+      "isCompleted": false,
+      "id": 97,
+      "dateCompleted": ""
+    },
+    {
+      "petId": 3,
+      "userId": 3,
+      "choreId": 2,
+      "schedDate": "5/21/2020",
+      "recurrance": "daily",
+      "isCompleted": true,
+      "id": 99,
+      "dateCompleted": "5/21/2020"
+    },
+    {
+      "petId": 3,
+      "userId": 3,
+      "choreId": 2,
+      "schedDate": "5/25/2020",
+      "recurrance": "daily",
+      "isCompleted": false,
+      "id": 100,
+      "dateCompleted": ""
+    }
+  ]
+}
